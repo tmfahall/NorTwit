@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42F3C64E-7B92-4F95-8C11-ED30E43A8D9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{538DEEA1-9E04-46FC-A663-ACE3D6DAF619}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NorTwit", "src\NorTwit\NorTwit.xproj", "{E1AE90C6-4963-4362-A486-DC261CE1FB66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1AE90C6-4963-4362-A486-DC261CE1FB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AE90C6-4963-4362-A486-DC261CE1FB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AE90C6-4963-4362-A486-DC261CE1FB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AE90C6-4963-4362-A486-DC261CE1FB66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1AE90C6-4963-4362-A486-DC261CE1FB66} = {42F3C64E-7B92-4F95-8C11-ED30E43A8D9C}
+	EndGlobalSection
+EndGlobal
